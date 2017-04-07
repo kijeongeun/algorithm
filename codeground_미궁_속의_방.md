@@ -1,9 +1,11 @@
 ### Codeground "미궁 속의 방"
 (https://www.codeground.org/practice/practiceProbView.do)
 
+
 *하 이문제 너무 많이 봐서 외울것 같다.....*
 
-####풀이 방법
+
+#### 풀이 방법
 
 일단, N = 5인 표가 다음과 같이 있다고 치자. 
 
@@ -48,7 +50,7 @@
 
 거기서 몇번을 더 가야하는지를 sum() 함수에서 구했다.
 
-####코드
+#### 코드
 ```cpp
 #include <cstdio>
 #include <iostream>
