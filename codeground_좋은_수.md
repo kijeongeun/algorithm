@@ -1,5 +1,5 @@
 ### Codeground "좋은 수"
-[문제 링크](https://www.codeground.org/practice/practiceProbView.do#)
+[문제 링크](https://www.codeground.org/practice/practiceProbView.do)
 
 
 
@@ -29,19 +29,19 @@ a + b + c = d 를 구하는 문제이다.
 
 1번째 인덱스 일 때는 arr[1] + arr[0], arr[1] + arr[1] 을 계산해서 배열에 체크한다.
 
-> sumArr[20만 + arr[1] + arr[0]] = 1, 
+    sumArr[20만 + arr[1] + arr[0]] = 1, 
 
-> sumArr[20만 + arr[1] + arr[1]] = 1 을 넣어준다.
+    sumArr[20만 + arr[1] + arr[1]] = 1 을 넣어준다.
 
 2번째 인덱스 일 때는 arr[2] + arr[0], arr[2] + arr[1], arr[2] + arr[2] 을 계산해서 배열에 체크한다.
 
-> sumArr[20만 + arr[2] + arr[0]] = 1, 
+    sumArr[20만 + arr[2] + arr[0]] = 1, 
 
-> sumArr[20만 + arr[2] + arr[1]] = 1,
+    sumArr[20만 + arr[2] + arr[1]] = 1,
 
-> sumArr[20만 + arr[2] + arr[2]] = 1 을 넣어준다.
+    sumArr[20만 + arr[2] + arr[2]] = 1 을 넣어준다.
 
-...
+    ...
 
 이런식으로 n-1까지 배열에 체크한다. 
 
